@@ -1,0 +1,37 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.portWin": "COM6",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "tusb_cdc_acm.h": "c",
+    "tinyusb.h": "c",
+    "stdbool.h": "c",
+    "tusb.h": "c",
+    "tinyusb_types.h": "c",
+    "tusb_config.h": "c",
+    "tusb_option.h": "c",
+    "tusb_common.h": "c",
+    "osal.h": "c",
+    "tusb_fifo.h": "c",
+    "*.ipp": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "*.inc": "c",
+    "*.tcc": "c",
+    "freertos.h": "c",
+    "cdc.h": "c",
+    "uart.h": "c",
+    "twai.h": "c",
+    "addr_from_stdin.h": "c",
+    "wificonnection.h": "c",
+    "esp_err.h": "c",
+    "sdkconfig.h": "c",
+    "esp_check.h": "c"
+  },
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32s3.cfg"
+  ]
+}
